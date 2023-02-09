@@ -26,7 +26,7 @@ analyze_url = endpoint + "vision/v3.1/analyze"
 # Set image_url to the URL of an image that you want to analyze.
 #image_url = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/" + \
 #    "Broadway_and_Times_Square_by_night.jpg/450px-Broadway_and_Times_Square_by_night.jpg"
-image_url = "https://raw.githubusercontent.com/Parkerj255/Wildlife-Vision/main/MFDC2255-Resized.jpg"
+image_url = "https://raw.githubusercontent.com/Parkerj255/Wildlife-Vision/main/Images/MFDC2255-Resized.jpg"
 headers = {'Ocp-Apim-Subscription-Key': subscription_key}
 params = {'visualFeatures': 'Categories,Description,Color'}
 data = {'url': image_url}
